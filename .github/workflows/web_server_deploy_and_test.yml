@@ -17,5 +17,5 @@ jobs:
     needs: [test_web_app]
     runs-on: ubuntu-latest
     steps: 
-      - name: Deploying Web App to Cloud
+      - name: Deploying Web App to Cloud 
         run: echo "Deplying to cloud..."
