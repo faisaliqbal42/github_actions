@@ -1,5 +1,11 @@
 name: Output Info Demo
-on: workflow_dispatch
+on:
+  push: # event
+    branches: # activites
+      - main
+      - new_branch
+    paths-ignore:
+     - '.github/workflows/*'
 
 jobs:
   display_info:
